@@ -1,0 +1,128 @@
+body{
+    background-image: url(img/fire.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background: #04635e;
+    color: whitesmoke;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:palegreen 3px solid;
+
+}
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    
+    margin-top: 10px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .header-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: red; 
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    text-align: right;
+}
+form{
+    text-align: center;
+    background-image: url(img/f.png);
+    background-size: contain;
+    background-position: center;
+    border: 3px groove wheat;
+    margin: 10%;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+h1{
+    color:rgb(145, 11, 11);
+}
+input{
+    font-size: 15px;
+    background-color:moccasin; 
+}
+.cancelbtn{
+    color:black;
+    background-color: violet;
+}
+.signup{
+color: black;
+background-color:green;
+}
+.ticket{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    border: 3px groove black;
+    margin: 40%;
+    padding: 1px;
+    background-color: fuchsia;
+
+    
+}
+h2{
+    color:mediumvioletred;
+    font-size: 30px;
+    font-style:italic;
+}
+label{
+    font-size: 25px;
+}
+h3{
+    text-align: left;
+    font-size: 35px;
+}
+h4{
+    text-align: right;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 20px;
+}
+table,th,td{
+    border: 3px rgb(93, 4, 128) groove;
+     border-collapse:collapse;
+}              
+table{
+    width: 80%;
+    text-align: center;
+    padding: 30px;
+    margin: 20%;
+}
+th{
+    font-size: 27px;
+} 
+td{
+    font-size: 20px;
+}
+.rejectbtn{
+    background-color: saddlebrown;
+}
+.accept{
+    background-color: chartreuse;
+}
+.next{
+    background-color: rgba(6, 2, 243, 0.842);
+}
